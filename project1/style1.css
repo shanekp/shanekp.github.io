@@ -1,0 +1,71 @@
+body{
+	background-image: url(Image1.jpg);
+	background-size: cover;
+}
+
+.container1{
+	color: white;
+	font-family: fantasy;
+	border-bottom: 1px solid white;
+	width: 300px; 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.container2{
+	border: 5px solid red;
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 20px;
+
+	color: white;
+	font-size: large;
+	border: 1px solid white;
+	font-family: fantasy;
+	text-align: center;
+}
+
+.container3{
+	color: white;
+	font-size: large;
+	font-family: fantasy;
+	text-align: center;
+
+	margin: auto;
+	width: 50%;
+	border: 1px solid white;
+	padding: 20px;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	transition: all 1s;
+}
+
+img{
+	margin: 10px;
+	height: 240px;
+	width: 360px;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+img{
+	float: right;
+}
+
+h5{
+	clear: both;
+	text-align: center;
+}
+
+figcaption{
+	color: white;
+	text-align: center;
+}
